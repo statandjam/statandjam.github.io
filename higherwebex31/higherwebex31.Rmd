@@ -16,7 +16,15 @@ library(webexercises)
 
 To check your understanding, work through this interactive exercise and ask for help with anything you are stuck on or that you don't understand.
 
+\begin{center}
+    \begin{tabular}{cc}
+        hey & hi\\
+    \end{tabular}
+\end{center}
+
 ## Tangents to a Curve {-}
+
+$$\dfrac{2}{5}$$
 
 A **tangent** is a straight line which `r mcq(c("crosses","doesn't meet",answer="touches","meets"))` a curve at a point. 
 
