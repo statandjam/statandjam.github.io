@@ -3,36 +3,44 @@
 
 <head>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-<title>Home</title>
+<title>Higher WebExercise 3.1</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<script src="https://www.desmos.com/api/v1.10/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 </head>
 
 <body>
 
 <!-- Top navigation -->
 <div class="topnav">
-
   <!-- Centered link -->
   <div class="topnav-centered">
     <a href="index.html">statandjam.github.io</a>
   </div>
-
   <!-- Left-aligned links (default) -->
   <a href="n5maths.html">N5 Maths</a>
   <a href="furthermaths.html">Further Maths</a>
   <a href="higher.html">Higher Maths</a>
-
   <!-- Right-aligned links -->
   <div class="topnav-right">
     <a href="ahstats.html">AH Stats</a>
     <a href="dataanalysis.html">Data Analysis</a>
   </div>
-
 </div>
 
-<iframe src="https://www.desmos.com/calculator/maqnumsmhj?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<p>Which of the following line below is a tangent to the curve?</p>
+
+<div id="calculator" style="width: 80%; height: 400px;"></div>
+<script>
+  var initialState = {"version":1,"graph":{"showGrid":false,"showXAxis":true,"showYAxis":true,"xAxisStep":1,"yAxisStep":1,"xAxisMinorSubdivisions":0,"yAxisMinorSubdivisions":0,"xAxisArrowMode":"NONE","yAxisArrowMode":"NONE","xAxisLabel":"","yAxisLabel":"","xAxisNumbers":true,"yAxisNumbers":true,"polarMode":false,"polarNumbers":true,"degreeMode":false,"projectorMode":false,"squareAxes":true,"viewport":{"xmin":-5,"ymin":-5,"xmax":15,"ymax":10}},"expressions":{"list":[{"id":"2","type":"folder","title":"Hidden","memberIds":{"3":true,"4":true},"hidden":false,"collapsed":false,"secret":true},{"id":"3","type":"expression","latex":"y=0.25(x-3)^2-1","hidden":false,"color":"#4F81BD","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"4","type":"expression","latex":"y-3=m(x-7)","hidden":false,"color":"#FF0000","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"5","type":"expression","latex":'m=-1', sliderBounds: {min: -3, max: 8, step: 1}}]}}
+  var elt = document.getElementById('calculator');
+  var calculator = Desmos.GraphingCalculator(elt,{
+      authorFeatures: false
+    });
+  calculator.setState(initialState);
+</script>
+
 
 </body>
 
