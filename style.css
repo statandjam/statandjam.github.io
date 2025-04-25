@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 table {
@@ -33,7 +34,7 @@ td {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
@@ -67,7 +68,7 @@ td {
   border: 0.02em solid black;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.8s;
 }
 
@@ -83,7 +84,7 @@ td {
 }
 
 /* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 960px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -95,6 +96,24 @@ td {
     left: 0;
     transform: none;
   }
+}
+
+.lg-view{
+   display:inline-block;
+}
+
+.sm-view{
+   display:none;
+}
+
+@media screen and (max-width: 960px) {
+    .lg-view{
+       display:none;
+    }
+
+    .sm-view{
+       display:inline-block;
+    }
 }
 
 .footer {
