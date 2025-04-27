@@ -84,7 +84,7 @@ td {
 }
 
 /* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -106,7 +106,7 @@ td {
    display:none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .lg-view{
        display:none;
     }
