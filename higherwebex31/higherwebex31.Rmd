@@ -16,15 +16,24 @@ library(webexercises)
 
 To check your understanding, work through this interactive exercise and ask for help with anything you are stuck on or that you don't understand.
 
-\begin{center}
-    \begin{tabular}{cc}
-        hey & hi\\
-    \end{tabular}
-\end{center}
+<div id="calculator" style="width: 80%; height: 400px;"></div>
+<script>
+  var initialState = {"version":1,"graph":{"showGrid":false,"showXAxis":true,"showYAxis":true,"xAxisStep":1,"yAxisStep":1,"xAxisMinorSubdivisions":0,"yAxisMinorSubdivisions":0,"xAxisArrowMode":"NONE","yAxisArrowMode":"NONE","xAxisLabel":"","yAxisLabel":"","xAxisNumbers":true,"yAxisNumbers":true,"polarMode":false,"polarNumbers":true,"degreeMode":false,"projectorMode":false,"squareAxes":true,"viewport":{"xmin":-5,"ymin":-5,"xmax":15,"ymax":10}},"expressions":{"list":[{"id":"2","type":"folder","title":"Hidden","memberIds":{"3":true,"4":true},"hidden":false,"collapsed":false,"secret":true},{"id":"3","type":"expression","latex":"y=0.25(x-3)^2-1","hidden":false,"color":"#4F81BD","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"4","type":"expression","latex":"y-3=m(x-7)","hidden":false,"color":"#FF0000","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"5","type":"expression","latex":'m=-1', sliderBounds: {min: -3, max: 8, step: 1}}]}}
+  var elt = document.getElementById('calculator');
+  var calculator = Desmos.GraphingCalculator(elt,{
+      authorFeatures: false
+    });
+  calculator.setState(initialState);
+</script>
 
 ## Tangents to a Curve {-}
 
-$$\dfrac{2}{5}$$
+$$
+\begin{aligned}
+x+3 &=7&&\texttt{#}\quad\text{\textcolor{red}{Subtract 4 from both sides}}\\
+x&=4
+\end{aligned}
+$$
 
 A **tangent** is a straight line which `r mcq(c("crosses","doesn't meet",answer="touches","meets"))` a curve at a point. 
 

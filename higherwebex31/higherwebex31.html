@@ -461,9 +461,26 @@ display: none;
 <p>To check your understanding, work through this interactive exercise
 and ask for help with anything you are stuck on or that you don&#39;t
 understand.</p>
+<div id="calculator" style="width: 80%; height: 400px;">
+
+</div>
+<script>
+  var initialState = {"version":1,"graph":{"showGrid":false,"showXAxis":true,"showYAxis":true,"xAxisStep":1,"yAxisStep":1,"xAxisMinorSubdivisions":0,"yAxisMinorSubdivisions":0,"xAxisArrowMode":"NONE","yAxisArrowMode":"NONE","xAxisLabel":"","yAxisLabel":"","xAxisNumbers":true,"yAxisNumbers":true,"polarMode":false,"polarNumbers":true,"degreeMode":false,"projectorMode":false,"squareAxes":true,"viewport":{"xmin":-5,"ymin":-5,"xmax":15,"ymax":10}},"expressions":{"list":[{"id":"2","type":"folder","title":"Hidden","memberIds":{"3":true,"4":true},"hidden":false,"collapsed":false,"secret":true},{"id":"3","type":"expression","latex":"y=0.25(x-3)^2-1","hidden":false,"color":"#4F81BD","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"4","type":"expression","latex":"y-3=m(x-7)","hidden":false,"color":"#FF0000","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"5","type":"expression","latex":'m=-1', sliderBounds: {min: -3, max: 8, step: 1}}]}}
+  var elt = document.getElementById('calculator');
+  var calculator = Desmos.GraphingCalculator(elt,{
+      authorFeatures: false
+    });
+  calculator.setState(initialState);
+</script>
 <div id="tangents-to-a-curve" class="section level2 unnumbered">
 <h2 class="unnumbered">Tangents to a Curve</h2>
-<p><span class="math display">\[\dfrac{2}{5}\]</span></p>
+<p><span class="math display">\[
+\begin{aligned}
+x+3 &amp;=7&amp;&amp;\texttt{#}\quad\text{\textcolor{red}{Subtract 4
+from both sides}}\\
+x&amp;=4
+\end{aligned}
+\]</span></p>
 <p>A <strong>tangent</strong> is a straight line which
 <select class="webex-select"><option value="blank"></option><option value>crosses</option><option value>doesn&#39;t
 meet</option><option value="answer">touches</option><option value>meets</option></select>
@@ -493,26 +510,26 @@ Africa&quot; -Toto</p>
 <p>True or False? You can permute values in a vector using
 <code>sample()</code>.
 <select class="webex-select"><option value="blank"></option><option value="answer">TRUE</option><option value>FALSE</option></select></p>
-<div id="radio_XXWZDMGPZH" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_XXWZDMGPZH" value></input>
+<div id="radio_DBYNOIEJRD" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_DBYNOIEJRD" value></input>
 <span>the probability that the null hypothesis is
-true</span></label><label><input type="radio" autocomplete="off" name="radio_XXWZDMGPZH" value="answer"></input>
+true</span></label><label><input type="radio" autocomplete="off" name="radio_DBYNOIEJRD" value="answer"></input>
 <span>the probability of the observed, or more extreme, data, under the
 assumption that the null-hypothesis is
-true</span></label><label><input type="radio" autocomplete="off" name="radio_XXWZDMGPZH" value></input>
+true</span></label><label><input type="radio" autocomplete="off" name="radio_DBYNOIEJRD" value></input>
 <span>the probability of making an error in your
 conclusion</span></label>
 </div>
 <p><strong>What is true about a 95% confidence interval of the
 mean?</strong></p>
-<div id="radio_KOEVJVUUVE" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_KOEVJVUUVE" value></input>
+<div id="radio_VUHDHBDJQO" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_VUHDHBDJQO" value></input>
+<span>95% of the data fall within this
+range</span></label><label><input type="radio" autocomplete="off" name="radio_VUHDHBDJQO" value></input>
 <span>there is a 95% probability that the true mean lies within this
-range</span></label><label><input type="radio" autocomplete="off" name="radio_KOEVJVUUVE" value="answer"></input>
+range</span></label><label><input type="radio" autocomplete="off" name="radio_VUHDHBDJQO" value="answer"></input>
 <span>if you repeated the process many times, 95% of intervals
-calculated in this way contain the true
-mean</span></label><label><input type="radio" autocomplete="off" name="radio_KOEVJVUUVE" value></input>
-<span>95% of the data fall within this range</span></label>
+calculated in this way contain the true mean</span></label>
 </div>
 </div>
 <div id="checked-sections" class="section level2">
@@ -525,13 +542,13 @@ styles).</p>
 <p>I am going to learn a lot:
 <select class="webex-select"><option value="blank"></option><option value="answer">TRUE</option><option value>FALSE</option></select></p>
 What is a p-value?
-<div id="radio_WFQLZBDWZX" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_WFQLZBDWZX" value></input>
+<div id="radio_CANPMLAIXT" class="webex-radiogroup">
+<label><input type="radio" autocomplete="off" name="radio_CANPMLAIXT" value></input>
 <span>the probability that the null hypothesis is
-true</span></label><label><input type="radio" autocomplete="off" name="radio_WFQLZBDWZX" value="answer"></input>
+true</span></label><label><input type="radio" autocomplete="off" name="radio_CANPMLAIXT" value="answer"></input>
 <span>the probability of the observed, or more extreme, data, under the
 assumption that the null-hypothesis is
-true</span></label><label><input type="radio" autocomplete="off" name="radio_WFQLZBDWZX" value></input>
+true</span></label><label><input type="radio" autocomplete="off" name="radio_CANPMLAIXT" value></input>
 <span>the probability of making an error in your
 conclusion</span></label>
 </div>
