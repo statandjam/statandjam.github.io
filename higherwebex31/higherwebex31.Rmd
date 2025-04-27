@@ -16,6 +16,8 @@ library(webexercises)
 
 To check your understanding, work through this interactive exercise and ask for help with anything you are stuck on or that you don't understand.
 
+Desmos test:
+
 <div id="calculator" style="width: 80%; height: 400px;"></div>
 <script>
   var initialState = {"version":1,"graph":{"showGrid":false,"showXAxis":true,"showYAxis":true,"xAxisStep":1,"yAxisStep":1,"xAxisMinorSubdivisions":0,"yAxisMinorSubdivisions":0,"xAxisArrowMode":"NONE","yAxisArrowMode":"NONE","xAxisLabel":"","yAxisLabel":"","xAxisNumbers":true,"yAxisNumbers":true,"polarMode":false,"polarNumbers":true,"degreeMode":false,"projectorMode":false,"squareAxes":true,"viewport":{"xmin":-5,"ymin":-5,"xmax":15,"ymax":10}},"expressions":{"list":[{"id":"2","type":"folder","title":"Hidden","memberIds":{"3":true,"4":true},"hidden":false,"collapsed":false,"secret":true},{"id":"3","type":"expression","latex":"y=0.25(x-3)^2-1","hidden":false,"color":"#4F81BD","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"4","type":"expression","latex":"y-3=m(x-7)","hidden":false,"color":"#FF0000","style":"normal","residualVariable":"","regressionParameters":{},"isLogModeRegression":false},{"id":"5","type":"expression","latex":'m=-1', sliderBounds: {min: -3, max: 8, step: 1}}]}}
@@ -26,11 +28,20 @@ To check your understanding, work through this interactive exercise and ask for 
   calculator.setState(initialState);
 </script>
 
+Youtube test:
+
+<div>
+  <div style="position:relative;padding-top:56.25%;">
+    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+</div>
+
 ## Tangents to a Curve {-}
 
 $$
 \begin{aligned}
-x+3 &=7&&\texttt{#}\quad\text{\textcolor{red}{Subtract 4 from both sides}}\\
+x+3 &=7&&\texttt{#}\quad\text{Subtract 4 from both sides}\\
 x&=4
 \end{aligned}
 $$
