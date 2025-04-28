@@ -42,7 +42,7 @@ e.g. $72.9715$ rounded to **3sf** $\rightarrow \underline{72.9}|\mathbf{7}15\rig
 
 #### Questions
 
-**(a)** The number 48730 rounded to *two significant figures* is: `r fitb(4900)`
+**(a)** The number 48730 rounded to *two significant figures* is: `r fitb(49000)`
 
 **(b)** The number 0.0030814 rounded to *three significant figures* is: `r fitb(0.00308)`
 
