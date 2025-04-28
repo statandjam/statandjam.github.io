@@ -1,5 +1,5 @@
 ---
-title: "Form III Maths Revision"
+title: "Form III Maths Revision - May Exam 2025"
 output: webexercises::webexercises_default
 ---
 
@@ -323,7 +323,7 @@ Answer: $x(x-8)$
 
 e.g. Factorise $x^2-16$
 
-*(Note that 16 is *$4^2$*)*
+*(Note that* $16=4^2$*)*
 
 Answer: $(x+4)(x-4)$
 
@@ -360,3 +360,114 @@ Answer: `r fitb(c("(x-1)(x-3)","(x-3)(x-1)"),ignore_case=TRUE)`
 Answer: `r fitb(c("5(x+3)(x-3)","5(x-3)(x+3)"),ignore_case=TRUE)`
 
 :::
+
+## 9 - Gradient Between Coordinates
+
+The steepness of a slope is measured by its **gradient**, which is defined as:
+
+$$\text{gradient}=\dfrac{\text{change in vertical}}{\text{change in horizontal}}$$
+
+Given two coordinates $\left(x_1,y_1\right)$ and $\left(x_2,y_2\right)$, the gradient ($m$) of the straight line joining them can be found using the formula:
+
+$$m=\dfrac{y_2-y_1}{x_2-x_1}$$
+
+e.g. Determine the gradient of the line between points $(4,-3)$ and $(10,6)$.
+
+*(First, label one coordinate as* $\left(x_1,y_1\right)$ *and the other as* $\left(x_2,y_2\right)$*)*
+
+$$m=\dfrac{y_2-y_1}{x_2-x_1}=\dfrac{6-(-3)}{10-4}=\dfrac{9}{6}=\dfrac{3}{2}$$
+
+Be careful dealing with any negatives, and simplify your answer if possible.
+
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Determine the gradient of the line between points $(2,6)$ and $(4,14)$.
+
+Answer: $m=$`r fitb(4)`
+
+**(b)** Determine the gradient of the line between points $(4,2)$ and $(7,-4)$.
+
+Answer: $m=$`r fitb(-2)`
+
+**(c)** Determine the gradient of the line between points $(-2,-1)$ and $(3,4)$.
+
+Answer: $m=$`r fitb(1)`
+
+:::
+
+## 10 - The Equation of a Straight Line
+
+The equation of a straight line with a gradient of $m$ and which passes through the point $(0,c)$, called its $y$-*intercept*, is:
+
+$$y=mx+c$$
+
+e.g. State the equation of the line with a gradient of $-4$ which passes through the point $(0,7)$.
+
+Since $m=-4$ and $c=7$:
+
+$$y=-4x+7$$
+
+When the gradient is known but the $y$-*intercept* is **not known**, and *another point* is known instead, a different equation may be more useful.
+
+The equation of a straight line with gradient $m$ passing through the point $(a,b)$ is: 
+
+$$y-b=m(x-a)$$
+
+e.g. Determine the equation of the straight line with a gradient of $5$ which passes through the point $(2,3)$.
+
+Since $m=5$ and a point $(a,b)$ is $(2,3)$:
+
+$$\begin{aligned}
+y-b&=m(x-a)\\
+y-3&=5(x-2)\\
+y-3&=5x-10\\
+y&=5x-7
+\end{aligned}$$
+
+Note that when using this equation the brackets need to be expanded and numerical terms ($-3$ and $-10$) not left separately, dealt with here by adding $3$ to both sides of the equation.
+
+If the gradient is not known but instead *two coordinates* are given, it will be necessary to first calculate the gradient in the same was as done in the last set of questions, before picking **either** of the two cooridnates as $(a,b)$ to use in the straight line equation.
+
+e.g. Determine the equation of the line between points $(-2,8)$ and $(1,2)$.
+
+$$m=\dfrac{y_2-y_1}{x_2-x_1}=\dfrac{2-8}{1-(-2)}=\dfrac{-6}{3}=-2$$
+
+$$\begin{aligned}
+y-b&=m(x-a)\\
+y-2&=-2(x-1)\\
+y-2&=-2x+2\\
+y&=-2x+4
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Determine the equation of the line between points $(2,6)$ and $(4,14)$.
+
+Answer: $m=$`r fitb("y=4x-2",ignore_case=TRUE)`
+
+**(b)** Determine the equation of the line between points $(4,2)$ and $(7,-4)$.
+
+Answer: $m=$`r fitb("y=-2x+10",ignore_case=TRUE)`
+
+**(c)** Determine the equation of the line between points $(-2,-1)$ and $(3,4)$.
+
+Answer: $m=$`r fitb("y=x+1",ignore_case=TRUE)`
+
+:::
+
+## 11 and 12 - Calculating Arc Lengths and Sector Areas
+
+An **arc** is a **fraction of the circumference** of a circle, and so for an arc with central angle $x^{\circ}$ its length may be calculated using:
+
+$$\text{Arc Length}=\dfrac{x^{\circ}}{360^{\circ}}\times\pi D$$
+
+e.g. Calculate the length of an arc with a radius of 5.3 centimetres and a central angle of 145 degrees, as shown below:
+
+![sector]("arcsector.png")
+
+
