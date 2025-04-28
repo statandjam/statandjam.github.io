@@ -4,9 +4,30 @@ Updated head for WebExercises after knitting:
 
 -----------
 
-Font changes to make after knitting for WebExercises:
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
 
+::: {}
+Here is the **first** Div.
 
+$$\begin{aligned}
+2x&=8\\
+x&=4
+\end{aligned}$$
+
+:::
+
+::: {}
+And this block will be put on the right:
+
+$$\begin{aligned}
+2x+1&=9\\
+2x&=8\\
+x&=4
+\end{aligned}$$
+
+:::
+
+::::
 
 ----------
 

@@ -1,0 +1,362 @@
+---
+title: "Form III Maths Revision"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+For each topic/skill, notes and examples are given followed by some questions for you to try. Enter your answers into the self-marking spaces provided to see if you got them correct. If you aren't sure where you went wrong, **ask for help!**
+
+If you would like to practice more questions of that type, use the *'25 Revision Questions'* sheet - answers and *full solutions* are provided on Teams.
+
+## 1 - Rounding To Significance Figures
+
+When rounding numbers to significant figures, key things to remember are that:
+
+- If the **next** number **after** the required number of significant figures is 5 or more then the last digit should be rounded *up*. Otherwise it should remain the *same*.
+
+e.g. $196100$ rounded to **2sf** $\rightarrow \underline{19}|\mathbf{6}100\rightarrow200000$
+
+- Zeroes at the *front*, found in small numbers, **don't count** as significant figures. This means that in the number 0.0040237 the first three significant figures are 4, 0 and 2. The zeroes at the front are *placeholders* and should still be there in your answer.
+
+e.g. $0.00504217$ rounded to **3sf** $\rightarrow0.00\underline{504}|\mathbf{2}17\rightarrow0.00504$
+
+- When rounding large numbers you may end up with several zeros after the significant figures, such as 863702.17 becoming 864000.00. To complete this rounding (to 3 significant figures) the **placeholder** zeroes to the **left** of the decimal point must remain, whilst those to the **right** of the decimal place should be discarded. The final answer should then be 864000
+
+e.g. $79261.39$ rounding to **3sf** $\rightarrow \underline{792}|\mathbf{6}1.39\rightarrow79300$
+
+- If you are asked to round to three significant figures and the number itself contains at least three digits then you **must not shorten it to less than three digits**. This mistake usually happens when the last of the significant digits is or becomes a *zero*.
+
+e.g. $72.9715$ rounded to **3sf** $\rightarrow \underline{72.9}|\mathbf{7}15\rightarrow73.0$ and **not** $73$.
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** The number 48730 rounded to *two significant figures* is: `r fitb(4900)`
+
+**(b)** The number 0.0030814 rounded to *three significant figures* is: `r fitb(0.00308)`
+
+**(c)** The number 4528.71 rounded to *three significant figures* is: `r fitb(4530)`
+
+:::
+
+## 2 - Simplifying Surds
+
+To simplify surds, you must become familiar with **square numbers**, which are the numbers produced by multiplying whole numbers by themselves. The first three numbers are $1,4,9\dots$ since $1\times 1=\mathbf{1},\quad 2\times 2=\mathbf{4}\quad,3\times 3=\mathbf{9}\dots$ and so on. The first twelve square numbers are:
+
+$$1,4,9,16,25,36,49,64,81,100,121,144$$
+
+To simplify a surd, split it into **two square roots** multiplied together, with the **first** being the **largest square number that it can be divided by**, and the second being whoever many times it goes into it. 
+
+The **first, square number** can then be square rooted.
+
+e.g. Below, recognise that the square number **9** is a factor
+
+$$\begin{aligned}
+&\sqrt{18}\\
+=&\sqrt{\mathbf{9}}\sqrt{2}\\
+=&3\sqrt{2}
+\end{aligned}$$
+
+If there are several square numbers that go into it, make sure you take the time to find the **largest**.
+
+e.g. Below, recognise that 4 **and** 16 are square factors. **Use 16**.
+
+$$\begin{aligned}
+&\sqrt{48}\\
+=&\sqrt{\mathbf{16}}\sqrt{3}\\
+=&4\sqrt{3}
+\end{aligned}$$
+
+e.g. If the surd is already multiplied by an integer, remember to finish with a multiplication.
+
+$$\begin{aligned}
+&4\sqrt{125}\\
+=&4\sqrt{\mathbf{25}}\sqrt{5}\\
+=&4\times 5\sqrt{5}\\
+=&20\sqrt{5}\\
+\end{aligned}$$
+
+A surd has been fully simplified when there are no further square factors (apart from 1).
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** $\sqrt{24}$ can be simplified to: `r fitb(2)`$\sqrt{}$`r fitb(6)`
+
+**(b)** $\sqrt{500}$ can be simplified to: `r fitb(10)`$\sqrt{}$`r fitb(5)`
+
+**(c)** $7\sqrt{72}$ can be simplified to: `r fitb(42)`$\sqrt{}$`r fitb(2)`
+
+:::
+
+## 3 - Collecting Surds
+
+Surds can be collected, as long as they are the *same* surd. For example, $4\sqrt{\mathbf{7}}+2\sqrt{\mathbf{7}}$ can be *collected* as $6\sqrt{\mathbf{7}}$. However $4\sqrt{\mathbf{7}}+2\sqrt{\mathbf{5}}$ **cannot** be collected.
+
+A common National 5 question requires surds to be *simplified* then *collected*.
+
+e.g. Simplify $\sqrt{80}-2\sqrt{45}+7\sqrt{5}$
+
+$$\begin{aligned}
+&\sqrt{80}&-&&2\sqrt{45}&&+&&7\sqrt{5}\\
+=\quad&\sqrt{16}\sqrt{5}&-&&2\sqrt{9}\sqrt{5}&&+&&7\sqrt{5}\\
+=\quad&4\sqrt{5}&-&&6\sqrt{5}&&+&&7\sqrt{5}\\
+=\quad&5\sqrt{5}&&&&&
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** $\sqrt{98}-\sqrt{8}$ can be simplified to: `r fitb(5)`$\sqrt{}$`r fitb(2)`
+
+**(b)** $\sqrt{40}+6\sqrt{10}$ can be simplified to: `r fitb(8)`$\sqrt{}$`r fitb(10)`
+
+**(c)** $\sqrt{600}+\sqrt{24}-3\sqrt{150}$ can be simplified to: `r fitb(-3)`$\sqrt{}$`r fitb(6)`
+
+:::
+
+## 4 - Rationalising the Denominator
+
+Surds are *irrational*, so the fraction $\dfrac{4}{\sqrt{5}}$ has an **irrational denominator**.
+
+By multiplying the fraction by $\dfrac{\sqrt{5}}{\sqrt{5}}$ we can **rationalise the denominator**.
+
+$$\dfrac{4}{\sqrt{5}}\times \dfrac{\sqrt{5}}{\sqrt{5}} = \dfrac{4\sqrt{5}}{5}$$
+
+The steps in answering a question of this time fully are:
+
+- Make the denominator rational through multiplication (e.g. $\times \dfrac{5}{5}$)
+
+- Check if the **surd** can be *simplified*, and do so if it can. Above, $\sqrt{5}$ cannot be simplified.
+
+- Check if the integer parts of the fraction can be simplified. Above, $\dfrac{4}{5}$ cannot be simplified.
+
+e.g. Express $\dfrac{10}{\sqrt{6}}$ with a rational denominator.
+
+$$\dfrac{10}{\sqrt{6}}\times \dfrac{\sqrt{6}}{\sqrt{6}}=\dfrac{10\sqrt{6}}{6}=\dfrac{5\sqrt{6}}{3}$$
+
+e.g. Express $\dfrac{20}{\sqrt{8}}$ with a rational denominator.
+
+$$\dfrac{20}{\sqrt{8}}\times \dfrac{\sqrt{8}}{\sqrt{8}}=\dfrac{20\sqrt{8}}{8}=\dfrac{20\times 2\sqrt{2}}{8}=\dfrac{40\sqrt{2}}{8}=\dfrac{5\sqrt{2}}{1}=5\sqrt{2}$$
+
+Note that for the example above $\dfrac{5\sqrt{2}}{1}$ would not be accepted as a **final** answer.
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** $\dfrac{7}{\sqrt{3}}$ written with a rational denominator in its simplest form is: `r mcq(c("A",answer="B","C","D"))`
+
+$$\text{A}:\quad\dfrac{\sqrt{7}}{3}\quad
+\text{B}:\quad\dfrac{7\sqrt{3}}{3}\quad
+\text{C}:\quad\dfrac{3\sqrt{7}}{3}\quad
+\text{D}:\quad\dfrac{\sqrt{3}}{7}$$
+
+**(b)** $\dfrac{30}{\sqrt{6}}$ written with a rational denominator in its simplest form is: `r mcq(c("A","B","C",answer="D"))`
+
+$$\text{A}:\quad\dfrac{6\sqrt{30}}{6}\quad
+\text{B}:\quad\dfrac{30\sqrt{6}}{6}\quad
+\text{C}:\quad 6\sqrt{5}\quad
+\text{D}:\quad 5\sqrt{6}$$
+
+**(c)** $\dfrac{3}{\sqrt{12}}$ written with a rational denominator in its simplest form is: `r mcq(c("A","B",answer="C","D"))`
+
+$$\text{A}:\quad\dfrac{3\sqrt{12}}{12}\quad
+\text{B}:\quad\dfrac{\sqrt{12}}{4}\quad
+\text{C}:\quad\dfrac{\sqrt{3}}{2}\quad
+\text{D}:\quad\dfrac{\sqrt{3}}{6}$$
+
+:::
+
+## 5 - Indices
+
+There are **three rules for indices** you should be familiar with:
+
+- Multiplying powers: $x^m\times x^n=x^{m+n}$
+
+- Dividing powers: $\dfrac{x^m}{x^n}=x^{m-n}$
+
+- Powers of powers: $\left(x^m\right)^n=x^{m\times n}$
+
+e.g. Simplify $\dfrac{4x^5\times2x^4}{10x^3}$
+
+$$\dfrac{4x^5\times2x^4}{10x^3}=\dfrac{8x^9}{10x^3}=\cfrac{4}{5}x^6$$
+
+e.g. Simplify $\dfrac{\left(2x^4\right)^3}{4x^5}$
+
+$$\dfrac{\left(2x^4\right)^3}{4x^5}=\dfrac{8x^{12}}{4x^5}=2x^7$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** $\dfrac{6x^7\times 3x^4}{9x^8}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(2)` and the value of $b$ is: `r fitb(3)`.
+
+**(b)** $\dfrac{\left(2x^3\right)^5}{8x^9}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(8)` and the value of $b$ is: `r fitb(6)`.
+
+**(c)** $\dfrac{10x^3}{x^2\times 5x^{-4}}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(2)` and the value of $b$ is: `r fitb(5)`.
+
+:::
+
+## 6 - Scientific Notation
+
+Numbers can be changed into scientific notation, or turned back into normal form, by counting the number of moves of the decimal point.
+
+$457000\leftrightarrow 4.57\times10^5$
+
+Small numbers (less than 1) should have a *negative* power.
+
+$0.0000457 \leftrightarrow 4.57\times 10^{-5}$
+
+Scientific notation questions in the N5 exam often consist of calculator questions in which the answer must be given in scientific notation.
+
+e.g. A (very large!) circle has radius $7.1\times10^5$ centimetres. Calculate its area, giving your answer in standard form.
+
+*(Note that Scientific Notation and Standard Form are the same thing)*
+
+$$\text{Area}=\pi r^2=\pi \times \left(7.1\times 10^5\right)^2=1.58\times 10^{12}\text{ square centimetres}$$
+
+If the calculator gives you an answer that is already in scientific notation, just write it down carefully.
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** A planet has a diameter of $8\times 10^6$ metres, whilst one of its moons has a diameter of has a diameter of $3.2\times 10^4$ metres. Determine how many times larger the diameter of the planet is than the diameter of the moon.
+
+Answer: `r fitb(250)` times larger.
+
+**(b)** Light travels at a speed of $3\times 10^8$ metres per second in a vacuum. Calculate how far light will travel in a minute, giving your answer in standard form.
+
+Answer: `r fitb(1.8)`$\times 10$ to the power of `r fitb(10)` metres.
+
+**(c)** An arc has central angle $140^{\circ}$ and a radius of $3.4\times 10^7$ metres. Find its length, giving your answer in scientific notation to *three significant figures*.
+
+Answer: `r fitb(8.31)`$\times 10$ to the power of `r fitb(7)` metres.
+
+:::
+
+## 7 - Expanding Brackets
+
+There are a number of ways of approaching multiplying out brackets. The most important points, whatever the method used, are to:
+
+- Take care with powers of $x$ and dealing with negatives.
+
+- Collect alike terms *carefully*.
+
+e.g. Expand and simplify $(x+3)(x^2-4x+5)$
+
+$$\begin{aligned}
+&(x+3)(x^2-4x+5)\\
+=&x(x^2-4x+5)+3(x^2-4x+5)\\
+=&x^3-4x^2+5x+3x^2-12x+15\\
+=&x^3-x^2-7x+15
+\end{aligned}$$
+
+Square brackets should be written twice before expanding.
+
+e.g. Expand and simplify $(x-5)^2+4(x^2-8)$
+
+$$\begin{aligned}
+&(x-5)^2+4(x^2-8)\\
+=&(x-5)(x-5)+4x^2-32\\
+=&x(x-5)-5(x-5)+4x^2-32\\
+=&x^2-5x-5x+25+4x^2-32\\
+=&5x^2-10x-7
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Expand and simplify $(5x+2)(x-3)+20x+7$.
+
+If the answer is in the form $ax^2+bx+c$, state the values of $a$, $b$ and $c$.
+
+$a=$`r fitb(5)`
+$b=$`r fitb(7)`
+$c=$`r fitb(1)`
+
+**(b)** Expand and simplify $(2x+4)^2+3(2x^2-1)$.
+
+If the answer is in the form $ax^2+bx+c$, state the values of $a$, $b$ and $c$.
+
+$a=$`r fitb(10)`
+$b=$`r fitb(16)`
+$c=$`r fitb(13)`
+
+**(c)** Expand and simplify $(x+2)(x^2+3x+1)$.
+
+If the answer is in the form $ax^3+bx^2+cx+d$, state the values of $a$, $b$, $c$ and $d$.
+
+$a=$`r fitb(1)`
+$b=$`r fitb(5)`
+$c=$`r fitb(7)`
+$d=$`r fitb(2)`
+
+:::
+
+## 8 - Factorising
+
+There are three factorising methods than you need to know in the N5 course, and it is recommended to look for each in order:
+
+- **Common Factor**
+
+e.g. Factorise $x^2-8x$
+
+Answer: $x(x-8)$
+
+- **Difference of Two Squares**
+
+e.g. Factorise $x^2-16$
+
+*(Note that 16 is *$4^2$*)*
+
+Answer: $(x+4)(x-4)$
+
+- **Quadratic Trinomials**
+
+e.g. Factorise $x^2-5x-14$
+
+*(Think of numbers that multiply to make *$-14$ *and add to make* $-5$*)*
+
+Answer: $(x+2)(x-7)$
+
+- **Combinations of methods**
+
+Finally, it may be required to use common factor first and then another method.
+
+e.g. Factorise $3x^2-12$ **fully**.
+
+Answer: $3(x^2-4)\rightarrow 3(x+2)(x-2)$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Factorise $4x^2-10x$.
+
+Answer: `r fitb("2x(2x-5)",ignore_case=TRUE)`
+
+**(b)** Factorise $x^2-4x+3$.
+
+Answer: `r fitb(c("(x-1)(x-3)","(x-3)(x-1)"),ignore_case=TRUE)`
+
+**(c)** Factorise $5x^2-45$ fully.
+
+Answer: `r fitb(c("5(x+3)(x-3)","5(x-3)(x+3)"),ignore_case=TRUE)`
+
+:::
