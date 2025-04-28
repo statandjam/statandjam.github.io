@@ -205,7 +205,7 @@ $$\dfrac{\left(2x^4\right)^3}{4x^5}=\dfrac{8x^{12}}{4x^5}=2x^7$$
 
 **(a)** $\dfrac{6x^7\times 3x^4}{9x^8}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(2)` and the value of $b$ is: `r fitb(3)`.
 
-**(b)** $\dfrac{\left(2x^3\right)^5}{8x^9}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(8)` and the value of $b$ is: `r fitb(6)`.
+**(b)** $\dfrac{\left(2x^3\right)^5}{8x^9}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(4)` and the value of $b$ is: `r fitb(6)`.
 
 **(c)** $\dfrac{10x^3}{x^2\times 5x^{-4}}$ can be written in the form $ax^b$. The value of $a$ is: `r fitb(2)` and the value of $b$ is: `r fitb(5)`.
 
