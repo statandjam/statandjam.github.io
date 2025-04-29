@@ -16,7 +16,7 @@ library(webexercises)
 
 For each topic/skill, notes and examples are given followed by some questions for you to try. Enter your answers into the self-marking spaces provided to see if you got them correct. If you aren't sure where you went wrong, **ask for help!**
 
-If you would like to practice more questions of that type, use the *'25 Revision Questions'* sheet - answers and *full solutions* are provided on Teams.
+If you would like to practice more questions of that type, use the revision questions shared through Teams/OneNote.
 
 ## 1 - Rounding To Significance Figures
 
@@ -63,8 +63,8 @@ The **first, square number** can then be square rooted.
 e.g. Below, recognise that the square number **9** is a factor
 
 $$\begin{aligned}
-&\sqrt{18}\\
-=&\sqrt{\mathbf{9}}\sqrt{2}\\
+&\sqrt{18}\\[1em]
+=&\sqrt{\mathbf{9}}\sqrt{2}\\[1em]
 =&3\sqrt{2}
 \end{aligned}$$
 
@@ -73,18 +73,18 @@ If there are several square numbers that go into it, make sure you take the time
 e.g. Below, recognise that 4 **and** 16 are square factors. **Use 16**.
 
 $$\begin{aligned}
-&\sqrt{48}\\
-=&\sqrt{\mathbf{16}}\sqrt{3}\\
+&\sqrt{48}\\[1em]
+=&\sqrt{\mathbf{16}}\sqrt{3}\\[1em]
 =&4\sqrt{3}
 \end{aligned}$$
 
 e.g. If the surd is already multiplied by an integer, remember to finish with a multiplication.
 
 $$\begin{aligned}
-&4\sqrt{125}\\
-=&4\sqrt{\mathbf{25}}\sqrt{5}\\
-=&4\times 5\sqrt{5}\\
-=&20\sqrt{5}\\
+&4\sqrt{125}\\[1em]
+=&4\sqrt{\mathbf{25}}\sqrt{5}\\[1em]
+=&4\times 5\sqrt{5}\\[1em]
+=&20\sqrt{5}\\[1em]
 \end{aligned}$$
 
 A surd has been fully simplified when there are no further square factors (apart from 1).
@@ -110,9 +110,9 @@ A common National 5 question requires surds to be *simplified* then *collected*.
 e.g. Simplify $\sqrt{80}-2\sqrt{45}+7\sqrt{5}$
 
 $$\begin{aligned}
-&\sqrt{80}&-&&2\sqrt{45}&&+&&7\sqrt{5}\\
-=\quad&\sqrt{16}\sqrt{5}&-&&2\sqrt{9}\sqrt{5}&&+&&7\sqrt{5}\\
-=\quad&4\sqrt{5}&-&&6\sqrt{5}&&+&&7\sqrt{5}\\
+&\sqrt{80}&-&&2\sqrt{45}&&+&&7\sqrt{5}\\[1em]
+=\quad&\sqrt{16}\sqrt{5}&-&&2\sqrt{9}\sqrt{5}&&+&&7\sqrt{5}\\[1em]
+=\quad&4\sqrt{5}&-&&6\sqrt{5}&&+&&7\sqrt{5}\\[1em]
 =\quad&5\sqrt{5}&&&&&
 \end{aligned}$$
 
@@ -260,9 +260,9 @@ There are a number of ways of approaching multiplying out brackets. The most imp
 e.g. Expand and simplify $(x+3)(x^2-4x+5)$
 
 $$\begin{aligned}
-&(x+3)(x^2-4x+5)\\
-=&x(x^2-4x+5)+3(x^2-4x+5)\\
-=&x^3-4x^2+5x+3x^2-12x+15\\
+&(x+3)(x^2-4x+5)\\[1em]
+=&x(x^2-4x+5)+3(x^2-4x+5)\\[1em]
+=&x^3-4x^2+5x+3x^2-12x+15\\[1em]
 =&x^3-x^2-7x+15
 \end{aligned}$$
 
@@ -271,10 +271,10 @@ Square brackets should be written twice before expanding.
 e.g. Expand and simplify $(x-5)^2+4(x^2-8)$
 
 $$\begin{aligned}
-&(x-5)^2+4(x^2-8)\\
-=&(x-5)(x-5)+4x^2-32\\
-=&x(x-5)-5(x-5)+4x^2-32\\
-=&x^2-5x-5x+25+4x^2-32\\
+&(x-5)^2+4(x^2-8)\\[1em]
+=&(x-5)(x-5)+4x^2-32\\[1em]
+=&x(x-5)-5(x-5)+4x^2-32\\[1em]
+=&x^2-5x-5x+25+4x^2-32\\[1em]
 =&5x^2-10x-7
 \end{aligned}$$
 
@@ -421,9 +421,9 @@ e.g. Determine the equation of the straight line with a gradient of $5$ which pa
 Since $m=5$ and a point $(a,b)$ is $(2,3)$:
 
 $$\begin{aligned}
-y-b&=m(x-a)\\
-y-3&=5(x-2)\\
-y-3&=5x-10\\
+y-b&=m(x-a)\\[1em]
+y-3&=5(x-2)\\[1em]
+y-3&=5x-10\\[1em]
 y&=5x-7
 \end{aligned}$$
 
@@ -436,9 +436,9 @@ e.g. Determine the equation of the line between points $(-2,8)$ and $(1,2)$.
 $$m=\dfrac{y_2-y_1}{x_2-x_1}=\dfrac{2-8}{1-(-2)}=\dfrac{-6}{3}=-2$$
 
 $$\begin{aligned}
-y-b&=m(x-a)\\
-y-2&=-2(x-1)\\
-y-2&=-2x+2\\
+y-b&=m(x-a)\\[1em]
+y-2&=-2(x-1)\\[1em]
+y-2&=-2x+2\\[1em]
 y&=-2x+4
 \end{aligned}$$
 
@@ -446,7 +446,7 @@ y&=-2x+4
 
 #### Questions
 
-**(a)** Determine the equation of the line between points $(2,6)$ and $(4,14)$.
+**(a)** State the equation of the line with a gradient of $4$ passing through $(0,-2)$.
 
 Answer: $m=$`r fitb("y=4x-2",ignore_case=TRUE)`
 
@@ -460,7 +460,7 @@ Answer: $m=$`r fitb("y=x+1",ignore_case=TRUE)`
 
 :::
 
-## 11 and 12 - Calculating Arc Lengths and Sector Areas
+## 11 Calculating Arc Lengths
 
 An **arc** is a **fraction of the circumference** of a circle, and so for an arc with central angle $x^{\circ}$ its length may be calculated using:
 
@@ -468,6 +468,463 @@ $$\text{Arc Length}=\dfrac{x^{\circ}}{360^{\circ}}\times\pi D$$
 
 e.g. Calculate the length of an arc with a radius of 5.3 centimetres and a central angle of 145 degrees, as shown below:
 
-![sector]("arcsector.png")
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+![](arcsector.png)
+:::
+
+::: {}
+$$\begin{aligned}
+\text{Arc Length}&=\dfrac{x^{\circ}}{360^{\circ}}\times\pi D\\[1em]
+&=\dfrac{145^{\circ}}{360^{\circ}}\times\pi \times 10.6\\[1em]
+&=13.41\text{cm}
+\end{aligned}$$
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Find the length of the arc $PQ$, shown below, giving your answer correct to 3 significant figures.
+
+![](11a.png)
+
+Answer: `r fitb(8.92)`$\text{cm}$
+
+**(b)** Find the length of the arc $ST$, shown below, taking $\pi=3.14$. **Non-Calculator**
+
+![](11b.png)
+
+Answer: `r fitb(6.28)`$\text{mm}$
+
+**(c)** Find the length of the arc $AB$, shown below, giving your answer *in terms of* $\pi$. **Non-Calculator**
+
+![](11c.png)
+
+Answer: `r fitb(4)`$\pi\text{ m}$
+
+:::
+
+## 12 Calculating Sector Areas
+
+An **sector** is a **fraction** of a circle, and so for an sector with central angle $x^{\circ}$ its area may be calculated using:
+
+$$\text{Sector Area}=\dfrac{x^{\circ}}{360^{\circ}}\times\pi r^2$$
+
+e.g. Calculate the area of a sector with a radius of 5.3 centimetres and a central angle of 145 degrees, as shown below:
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+![](arcsector.png)
+:::
+
+::: {}
+$$\begin{aligned}
+\text{Sector Area}&=\dfrac{x^{\circ}}{360^{\circ}}\times\pi r^2\\[1em]
+&=\dfrac{145^{\circ}}{360^{\circ}}\times\pi \times 5.3^2\\[1em]
+&=35.54\text{cm}^2
+\end{aligned}$$
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Find the area of the sector shown below, giving your answer correct to 3 significant figures.
+
+![](11a.png)
+
+Answer: `r fitb(31.2)`$\text{cm}^2$
+
+**(b)** Find the area of the sector shown below, taking $\pi=3.14$. **Non-Calculator**
+
+![](11b.png)
+
+Answer: `r fitb(9.42)`$\text{mm}^2$
+
+**(c)** Find the area of the sector shown below, giving your answer *in terms of* $\pi$. **Non-Calculator**
+
+![](11c.png)
+
+Answer: `r fitb(24)`$\pi\text{ m}$
+
+:::
+
+## 13 - Calculating Central Angles of Sectors
+
+The previous two sections used formulae for the length of an arc and the area of a sector, both of which involved the *central angle*, $x$. If an arc length or sector area is known, as well as a radius or diameter, the central angle can be calculated.
+
+e.g. Below is a sector with a radius of 17cm and an **area of 207 square centimetres**. Determine the size of the central angle, $x$.
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+![](arcsector2.png)
+:::
+
+::: {}
+$$\begin{aligned}
+\text{Sector Area}&=\dfrac{x^{\circ}}{360^{\circ}}\times\pi r^2\\[1em]
+207&=\dfrac{x^{\circ}}{360^{\circ}}\times\pi \times 17^2\\[1em]
+207\times 360^{\circ}&=x^{\circ}\times\pi \times 17^2\\[1em]
+\dfrac{207\times 360^{\circ}}{\pi \times 17^2}&=x^{\circ}\\[1em]
+x&=82.1\text{cm}
+\end{aligned}$$
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Given an arc length of 40cm and a diameter of 13cm, find the size of the central angle, to the nearest whole degree.
+
+Answer: `r fitb(353)`$^{\circ}$
+
+**(b)** Given a sector area of 100 square centimetres and a diameter of 18cm, find the size of the central angle, to the nearest whole degree.
+
+Answer: `r fitb(141)`$^{\circ}$
+
+**(c)** Given an arc length of $10\pi$ and a diameter of $36$, both measured in centimetres, find the size of the central angle. **Non-Calculator**
+
+Answer: `r fitb(100)`$^{\circ}$
+
+:::
+
+## 14 - Calculating Volumes
+
+Some formulae for volumes will be provided in the N5 formula sheet, whilst others will need to be memorised:
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+On the formula sheet:
+
+$$\begin{aligned}
+\text{Volume of a sphere}&&V&=\cfrac{4}{3}\pi r^3\\[2em]
+\text{Volume of a cone}&&V&=\cfrac{1}{3}\pi r^2h\\[2em]
+\text{Volume of a pyramid}&&V&=\cfrac{1}{3}Ah
+\end{aligned}$$
+
+:::
+
+::: {}
+**Not** on the formula sheet:
+
+$$\begin{aligned}
+&&&\\
+\text{Volume of a cuboid}&&V&=lbh\\[3em]
+\text{Volume of a cylinder}&&V&=\pi r^2h\\[3em]
+\text{Volume of a prism}&&V&=Ah
+\end{aligned}$$
+
+:::
+
+::::
+
+A typical N5 question on calculating a volume will involved a *composite* shape, with either addition or subtraction required to find the volume.
+
+e.g. A speak is in the shape of a cylinder with a hemisphere on top. Calculate the volume.
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+![](14e.png)
+
+:::
+
+::: {}
+**Not** on the formula sheet:
+
+$$\begin{aligned}
+V_{cylinder}&=\pi r^2 h\\[1em]
+&=\pi \times 8^2 \times 14\\[1em]
+&=2814.9\text{cm}^2\\[2em]
+V_{hemisphere}&=\cfrac{4}{3}\pi r^3 \div 2\\[1em]
+&=\cfrac{4}{3}\pi \times 8^3 \div 2\\[1em]
+&=1072.3\text{cm}^2\\[2em]
+V_{total}&=2814.9+1072.3\\[1em]
+=&=3887.2\text{cm}^2
+\end{aligned}$$
+
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Question
+
+Calculate the volume of the shape shown below, in the form of a cone on top of a hemisphere, giving your answer correct to **2 significant figures**.
+
+![](14q.png)
+
+Answer: `r fitb(550)`$\text{cm}$
+
+:::
+
+## 15 - Reverse Volume
+
+If the volume of a shape is given, the formulae from the previous section may be used to calculate a radius, height, and so on.
+
+e.g. The cone shown below has a volume of 340 cubic centimetres. Calculate its radius.
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+![](15e.png)
+
+:::
+
+::: {}
+
+$$\begin{aligned}
+V_{cone}&=\cfrac{1}{3}\pi r^2 h\\[1em]
+340&=\cfrac{1}{3}\pi\times r^2 \times 13\\[1em]
+340\times 3&=\pi\times r^2 \times 13\\[1em]
+\cfrac{340\times 3}{\pi \times 13}&= r^2\\[1em]
+r&=\sqrt{\cfrac{340\times 3}{\pi \times 13}}\\[1em]
+&=10.0\text{cm}
+\end{aligned}$$
+
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Question
+
+The square-based pyramid shown below has a volume of 138 cubic centimetres. Calculate its height, giving your answer correct to **3 significant figures**.
+
+![](15q.png)
+
+Answer: `r fitb(11.5)`$\text{cm}$
+
+:::
+
+## 16 - Equations and Inequations
+
+Linear equations in the N5 exam typically involve brackets or fractions.
+
+When dealing with brackets, first **expand** and then **collect** before using the *balance method* to solve.
+
+e.g. Solve $5(x-2)+2=10x-7$
+
+$$\begin{aligned}
+5(x-2)+2&=10x-7\\[1em]
+5x-10+2&=10x-7\\[1em]
+5x-8&=10x-7\\[1em]
+-8&=5x-7\\[1em]
+-1&=5x\\[1em]
+-\frac{1}{5}&=x
+\end{aligned}$$
+
+When dealing with fractions, **multiply through by the denominator**. If there are several fractions, first make each fraction have the **same denominator**.
+
+e.g. Solve $\dfrac{2x-4}{3}+5=9$
+
+$$\begin{aligned}
+\dfrac{2x-4}{3}+5&=9 \qquad \texttt{#}\textit{Multiply through by }3\\[1em]
+2x-4+15&=27\\[1em]
+2x+11&=27\\[1em]
+2x&=16\\[1em]
+x&=8
+\end{aligned}$$
+
+Inequations can be solved just as with equations - but if you multiply or divide by a negative number then the inequality sign will reverse.
+
+e.g. Solve $2(x-3)<4x-2$
+
+$$\begin{aligned}
+2(x-3)&<4x-2\\[1em]
+2x-6&<4x-2\\[1em]
+-6&<2x-2\\[1em]
+-4&<2x\\[1em]
+-2&<x
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Solve $4(2x-3)=11x+6$
+
+Answer: `r fitb(c("x=-6","-6=x"),ignore_case=TRUE)`
+
+**(b)** Solve $\dfrac{3x-1}{5}+3=10$
+
+Answer: `r fitb(c("x=12","12=x"),ignore_case=TRUE)`
+
+**(c)** Solve $4x<7(x+1)-1$
+
+Answer: `r fitb(c("-2<x","x>-2"),ignore_case=TRUE)`
+
+:::
+
+## 17 - Changing the Subject
+
+The **subject** of the formula $V=\frac{1}{3}Ah$ is $V$.
+
+To change the subject, using the *balance method*:
+
+e.g. Make $A$ the subject of $V=\frac{1}{3}Ah$.
+
+$$\begin{aligned}
+V&=\frac{1}{3}Ah\\[1em]
+3V&=Ah\\[1em]
+\cfrac{3V}{h}&=A
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Make $r$ the subject of $p=\dfrac{r+t}{q}$.
+
+Answer: `r fitb(c("r=pq-t","pq-t=r","pq-t"),ignore_case=TRUE)`
+
+**(b)** By first making $y$ the subject, find the gradient of the line $6x+2y=8$
+
+Answer: Gradient=$`r fitb(-3)`
+
+**(c)** By first making $y$ the subject, find the coordinates of the $y$-intercept of the line $2x-3y-12=0$
+
+Answer: (`r fitb(0)`,`r fitb(-4)`)
+
+:::
+
+## 18 - Solving Quadratic Equations
+
+To solve a quadratic equation (i.e. one containing an $x^2$ term), first **arrange equal to zero** and then **factorise**.
+
+e.g. Solve $x^2+7x+12=0$
+
+$$\begin{aligned}
+x^2+7x+12&=0\\[1em]
+(x+4)(x+3)&=0\\[1em]
+\end{aligned}$$
+
+$$\begin{aligned}
+x+4&=0\quad\text{or}\quad &x+3=0\\[1em]
+x&=-4 &x=-3
+\end{aligned}$$
+
+e.g. Solve $x^2-8x=0$
+
+$$\begin{aligned}
+x^2-8x&=0\\[1em]
+x(x-8)&=0\\[1em]
+\end{aligned}$$
+
+$$\begin{aligned}
+x=0\quad\text{or}\quad &x-8=0\\[1em]
+ &x=8
+\end{aligned}$$
+
+::: {.webex-check .webex-box}
+
+#### Questions
+
+**(a)** Solve $x^2+8x+12=0$
+
+*Enter both values for* $x$ *into the space provided separated by a COMMA*
+
+Answer: $x=$`r fitb(c("-6,-2","-2,-6"),ignore_case=TRUE)`
+
+**(b)** Solve $x^2-x-12=0$
+
+*Enter both values for* $x$ *into the space provided separated by a COMMA*
+
+Answer: $x=$`r fitb(c("-3,4","4,-3"),ignore_case=TRUE)`
+
+**(c)** Solve $x^2=5x$
+
+*Enter both values for* $x$ *into the space provided separated by a COMMA*
+
+Answer: $x=$`r fitb(c("0,5","5,0"),ignore_case=TRUE)`
+
+:::
+
+## 19 - Angles in Circles
+
+To find missing angles in within circles, consider the following:
+
+- Angles in a triangle adding to 180 degrees
+
+- Triangles that contain **two radii** are **isosceles**
+
+- Triangles made of **two chords and a diameter** are **right-angles**
+
+- A **radius** meeting a **tangent** produces a **right angle**
+
+You should write the angles you find on your sketch, and communicate your final answer clearly. E.g. $\angle PQR=47^{\circ}$
+
+::: {.webex-check .webex-box}
+
+#### Question
+
+Find the size of the angle $ABD$ shown on the diagram below.
+
+![](19q.png)
+
+Answer: $\angle ABD=$`r fitb(61)`$^{\circ}$
+
+:::
 
 
+## 20 - Pythagoras in Circles
+
+A circle cut across by a chord produces a **right-angled triangle** when a radius and the *bisector* of the chord are added. This allows Pythagoras' Theorem to be used to calculate missing lengths.
+
+e.g. Calculate the height of the shape below.
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+![](20e.png)
+
+First a vertical line from the centre downwards should be added. This produces a **right-angled triangle**, which should then be **sketched**.
+
+:::
+
+::: {}
+
+![](20e2.png)
+
+$$\begin{aligned}
+x^2+4^2&=4.5^2\\[1em]
+x^2+16&=20.25\\[1em]
+x^2=4.25\\[1em]
+x&=\sqrt{4.25}\\[1em]
+&=2.06
+\end{aligned}$$
+
+Total height $=4.5+2.06=6.56$ millimetres.
+
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Question
+
+A diagram of a label is shown below. Find its height, giving your answer correct to *three significant figures*.
+
+![](20q.png)
+
+Answer: `r fitb(11.4)` centimetres
+
+:::
