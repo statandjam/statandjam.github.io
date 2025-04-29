@@ -928,3 +928,41 @@ A diagram of a label is shown below. Find its height, giving your answer correct
 Answer: `r fitb(11.4)` centimetres
 
 :::
+
+## 21 - Converse of Pythagoras
+
+The Converse of Pythagoras aims to check whether a triangle, or angle, is **right-angled**. The **layout** of how you tackle these problems is **very important**. The recommended structure is to consider the sum of the *two smaller sides* squared, then compare that result to the square of the hypotenuse (longest side).
+
+e.g. The triangle below *looks* roughly right-angled, but is it?
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+![](21e.png)
+
+:::
+
+::: {}
+
+$$\begin{aligned}
+5.4^2+6.3^2&=68.85\\[1em]
+8.1^2&=65.61\\[1em]
+\text{Since }5.4^2+6.3^2&\ne8.1^2\text{ the triangle is }\textbf{not}\text{ right-angled.}
+\end{aligned}$$
+
+:::
+
+::::
+
+::: {.webex-check .webex-box}
+
+#### Question
+
+Determine whether the triangle JFS is right-angled.
+
+![](21q.png)
+
+Answer: `r torf(FALSE)` centimetres
+
+:::
