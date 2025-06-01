@@ -1,0 +1,47 @@
+---
+title: "Quadratic Inequations"
+output: webexercises::webexercises_default
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(webexercises)
+```
+
+
+```{r, echo = FALSE, results='asis'}
+# Uncomment to change widget colours:
+#style_widgets(incorrect = "goldenrod", correct = "purple")
+```
+
+Quadratic **equations** in the Higher course will typically be solved by **factorising**; the use of other valid methods such as the *quadratic formula* is permitted but not required.
+
+
+**quadratic inequations**
+
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="around">
+<div id="ggb-element"></div></div>
+<script>
+    var params = {"borderRadius":5,"filename":"HM04.1QuadraticInequations1.ggb", "showResetIcon": true};
+    var applet = new GGBApplet(params, true);
+    window.addEventListener("load", function() {
+        applet.inject('ggb-element');
+    });
+</script>
+
+## Fill-In-The-Blanks (`fitb()`)
+
+Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument.
+
+- 2 + 2 is `r fitb(4)`
+
+You can also create these questions dynamically, using variables from your R session.
+
+```{r}
+x <- sample(2:8, 1)
+```
+
+- The square root of `r x^2` is: `r fitb(x)`
+
+

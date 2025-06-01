@@ -1,0 +1,67 @@
+---
+title: "L2 Further Maths"
+output: html_document
+---
+
+The AQA L2 Further Maths qualification is *"a unique qualification designed to stretch and challenge high achieving mathematicians"*.  
+Preparing for the exam is expected to be a substantial piece of work between now and the dates below.
+
+As well as the usual class times, **Y05 is available every lunchtime** from Tuesday 3rd June to Wednesday 18th June as a place to work through problems and get help when needed.
+
+You can also come along to Y05 **after school every day apart from Tuesdays** from 3:30pm to 4:45pm to work through problems or get help.
+
+## Exam Dates
+
+**Thursday 12th June 2025**  
+1:30pm to 3:15pm  
+Paper 1 (Non-calculator)
+
+**Wednesday 18th June 2025**  
+1:30pm to 3:15pm  
+Paper 2 (Calculator)
+
+## Exam Resources
+
+[Formula Sheet](https://cdn.sanity.io/files/p28bar15/green/dbfae7eeab8a2339190e93b8664358b9aaf13c2f.pdf)  
+
+[2023 Paper 1](https://cdn.sanity.io/files/p28bar15/green/5de217672144bebd4f9db9be3210b55dbf47b091.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/da6c9d0a4ed7a729f98d659f357bb3de58a4f52b.pdf)  
+[2023 Paper 2](https://cdn.sanity.io/files/p28bar15/green/68d589354d223e041df0998cfa58c8650d3cf575.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/0e2d9bd664ab89267297feb9f5f4f9629fdce70b.pdf)    
+
+[2022 Paper 1](https://cdn.sanity.io/files/p28bar15/green/ea376515608eb5d61a1ad5cd7e71543fb6c2fa91.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/91e4ccec9bb86e6248240a7c9e746d88a9119877.pdf)  
+[2022 Paper 2](https://cdn.sanity.io/files/p28bar15/green/2baa057669d31f2c5ed5c0d768a6712afcf2f04f.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/44be3b959a3d27905e87ad957b326cefe1a1cd30.pdf)  
+
+[2021 Paper 1](https://cdn.sanity.io/files/p28bar15/green/879ae5029823e1eb007f5db39e730e65d3eb3122.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/0da02d40df02c673fc5ceffe75ea1a93d1d754cf.pdf)  
+[2021 Paper 2](https://cdn.sanity.io/files/p28bar15/green/8ff92368fb72fe1f796d546768b55f1f6d11b76f.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/e7287f1e113e0182b45183416352224305ccf97d.pdf)  
+
+[2020 Paper 1](https://cdn.sanity.io/files/p28bar15/green/201e4bdb17cfc04925adb0d0495d49d73f777523.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/e199d7905309e4a4131a762aa36854a9082881d6.pdf)  
+[2020 Paper 2](https://cdn.sanity.io/files/p28bar15/green/8a805dcb786058ab9ef65dec4f935c0fc06fec12.pdf)  -- [Mark Scheme](https://cdn.sanity.io/files/p28bar15/green/b05cc4adea5f1f69fdf527b3f26aff0a7ad26466.pdf)  
+
+[2019 Paper 1](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-QP-JUN19.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-W-MS-JUN19.pdf)  
+[2019 Paper 2](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-QP-JUN19.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-W-MS-JUN19.pdf)  
+
+[2018 Paper 1](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-QP-JUN18.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-W-MS-JUN18.pdf)  
+[2018 Paper 2](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-QP-JUN18.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-W-MS-JUN18.pdf)  
+
+[2017 Paper 1](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-QP-JUN17.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-W-MS-JUN17.pdf)  
+[2017 Paper 2](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-QP-JUN17.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-W-MS-JUN17.pdf)  
+
+[2016 Paper 1](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-QP-JUN16.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83601-W-MS-JUN16.pdf)  
+[2016 Paper 2](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-QP-JUN16.pdf)  -- [Mark Scheme](https://www.westiesworkshop.com/wp-content/uploads/2021/12/AQA-83602-W-MS-JUN16.pdf)  
+
+## Course Resources
+
+The [course specifications](https://cdn.sanity.io/files/p28bar15/green/8d9f2cf8d59a544142d1f4597ac83d58570f4973.pdf) document sets out the skills and knowledge you are expected to be comfortable with ahead of the exam. This is broken down as follows:
+
+1. Number
+2. Algebra
+3. Coordinate Geometry (2 dimensions only)
+4. Calculus
+5. Matrix Transformations
+6. Geometry
+
+You should take the time to read through each part of the course specifications using the link above. To more clearly illustrate some of the techniques described, a series of examples matched to each numbered part can be found [here]().
+
+There are a number of revision webpages which focus on L2 Further Maths. The most comprehensive, featuring practice questions and **video lessons** covering each part of the course is perhaps [**Corbett Maths' Further Maths page**](https://corbettmaths.com/more/further-maths/).
+
+Ultimately, it is thorough practice of past exam questions which will best prepare you for the exams.
+

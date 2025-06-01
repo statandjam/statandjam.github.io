@@ -30,12 +30,11 @@
 </div>
 
 <script src="https://www.geogebra.org/apps/deployggb.js"></script>
-
-<div id="ggb-element"></div>
-
+<div id="around">
+<div id="ggb-element"></div></div>
 <script>
-    var params = {"filename":"sinecosine.ggb", "width": 1000, "height": 600, "showToolBar": false, "showAlgebraInput": false, "showMenuBar": false };
-    var applet = new GGBApplet(params, true);
+    var params = {"allowStyleBar":false,"showResetIcon":true,"showAlgebraInput":false, "borderRadius":5,"filename":"sinecosine.ggb", "width": 1000, "height": 600, "showToolBar": false, "showAlgebraInput": false, "showMenuBar": false };
+    var applet = new GGBApplet(params, false);
     window.addEventListener("load", function() {
         applet.inject('ggb-element');
     });

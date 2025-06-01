@@ -645,6 +645,19 @@ e.g. A speak is in the shape of a cylinder with a hemisphere on top. Calculate t
 ::: {}
 **Not** on the formula sheet:
 
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+<div id="ggb-element"></div>
+
+
+<script>
+    var params = {"allowStyleBar":false,"showResetIcon":true,"showAlgebraInput":false, "borderRadius":5,"filename":"sinecosine.ggb", "width": 800, "height": 600, "showToolBar": false, "showAlgebraInput": false, "showMenuBar": false };
+    var applet = new GGBApplet(params, false);
+    window.addEventListener("load", function() {
+        applet.inject('ggb-element');
+    });
+</script>
+
 $$\begin{aligned}
 V_{cylinder}&=\pi r^2 h\\[1em]
 &=\pi \times 8^2 \times 14\\[1em]
