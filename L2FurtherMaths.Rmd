@@ -52,16 +52,15 @@ Paper 2 (Calculator)
 
 The [course specifications](https://cdn.sanity.io/files/p28bar15/green/8d9f2cf8d59a544142d1f4597ac83d58570f4973.pdf) document sets out the skills and knowledge you are expected to be comfortable with ahead of the exam. This is broken down as follows:
 
-1. Number
+1. [Number](FM1Number.pdf)
 2. Algebra
 3. Coordinate Geometry (2 dimensions only)
 4. Calculus
 5. Matrix Transformations
 6. Geometry
 
-You should take the time to read through each part of the course specifications using the link above. To more clearly illustrate some of the techniques described, a series of examples matched to each numbered part can be found [here]().
+You should take the time to read through each part of the course specifications. To more clearly illustrate some of the techniques described, a series of examples matched to each numbered part can be found by clicking on each section in the list above.
 
 There are a number of revision webpages which focus on L2 Further Maths. The most comprehensive, featuring practice questions and **video lessons** covering each part of the course is perhaps [**Corbett Maths' Further Maths page**](https://corbettmaths.com/more/further-maths/).
 
 Ultimately, it is thorough practice of past exam questions which will best prepare you for the exams.
-
