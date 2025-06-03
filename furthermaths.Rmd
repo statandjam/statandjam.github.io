@@ -53,7 +53,7 @@ Paper 2 (Calculator)
 The [course specifications](https://cdn.sanity.io/files/p28bar15/green/8d9f2cf8d59a544142d1f4597ac83d58570f4973.pdf) document sets out the skills and knowledge you are expected to be comfortable with ahead of the exam. This is broken down as follows:
 
 1. [Number](FM1Number.pdf)
-2. Algebra
+2. [Algebra](FM2Algebra.pdf)
 3. Coordinate Geometry (2 dimensions only)
 4. Calculus
 5. Matrix Transformations
